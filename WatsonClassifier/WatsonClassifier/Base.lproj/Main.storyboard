@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WatsonClassifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ask a Question" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt2-Aw-Pkm">
+                                <rect key="frame" x="20" y="28" width="560" height="122"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ask me something weather related" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c0b-Gl-5BC">
+                                <rect key="frame" x="20" y="158" width="560" height="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UAE-L6-yE9">
+                                <rect key="frame" x="20" y="265" width="560" height="315"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tO-Nd-FHn">
+                                <rect key="frame" x="256" y="210" width="88" height="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
+                                <state key="normal" title="ASK"/>
+                                <connections>
+                                    <action selector="askBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGD-2G-VPt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mt2-Aw-Pkm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7mL-Xj-c62"/>
+                            <constraint firstItem="2tO-Nd-FHn" firstAttribute="top" secondItem="c0b-Gl-5BC" secondAttribute="bottom" constant="22" id="9AG-x2-z1M"/>
+                            <constraint firstItem="c0b-Gl-5BC" firstAttribute="top" secondItem="mt2-Aw-Pkm" secondAttribute="bottom" constant="10" id="B77-ta-JjJ"/>
+                            <constraint firstItem="c0b-Gl-5BC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Bwu-Bc-bN9"/>
+                            <constraint firstItem="mt2-Aw-Pkm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Bxe-i5-vBg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UAE-L6-yE9" secondAttribute="bottom" constant="20" id="H2c-9o-hVk"/>
+                            <constraint firstItem="UAE-L6-yE9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Qd4-Ko-cfe"/>
+                            <constraint firstItem="UAE-L6-yE9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="kdr-Z7-FfF"/>
+                            <constraint firstItem="c0b-Gl-5BC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wMf-n4-9vw"/>
+                            <constraint firstItem="2tO-Nd-FHn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wx8-DJ-RJP"/>
+                            <constraint firstItem="mt2-Aw-Pkm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xAh-TK-caG"/>
+                            <constraint firstItem="UAE-L6-yE9" firstAttribute="top" secondItem="2tO-Nd-FHn" secondAttribute="bottom" constant="25" id="z2i-2i-61t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="questionTextField" destination="c0b-Gl-5BC" id="S5O-zi-btC"/>
+                        <outlet property="resultTextView" destination="UAE-L6-yE9" id="Irq-uQ-TqQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+    </scenes>
+</document>

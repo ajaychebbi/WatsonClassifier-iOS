@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA9D9ADBA5345F2B06768DD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A7A66FD33A4F2B0E32783 /* Pods.framework */; };
+		48F075D01C562E2A00FC1A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F075CF1C562E2A00FC1A4B /* AppDelegate.swift */; };
+		48F075D21C562E2A00FC1A4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F075D11C562E2A00FC1A4B /* ViewController.swift */; };
+		48F075D51C562E2A00FC1A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F075D31C562E2A00FC1A4B /* Main.storyboard */; };
+		48F075D71C562E2A00FC1A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F075D61C562E2A00FC1A4B /* Assets.xcassets */; };
+		48F075DA1C562E2A00FC1A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F075D81C562E2A00FC1A4B /* LaunchScreen.storyboard */; };
+		48F075E51C562E2A00FC1A4B /* WatsonClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F075E41C562E2A00FC1A4B /* WatsonClassifierTests.swift */; };
+		48F075F01C562E2A00FC1A4B /* WatsonClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F075EF1C562E2A00FC1A4B /* WatsonClassifierUITests.swift */; };
+		48F075FE1C56318000FC1A4B /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48F075FD1C56318000FC1A4B /* worklight.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48F075E11C562E2A00FC1A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F075C41C562E2A00FC1A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F075CB1C562E2A00FC1A4B;
+			remoteInfo = WatsonClassifier;
+		};
+		48F075EC1C562E2A00FC1A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F075C41C562E2A00FC1A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F075CB1C562E2A00FC1A4B;
+			remoteInfo = WatsonClassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D799CBEC70CADC4590F5295 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		48F075CC1C562E2A00FC1A4B /* WatsonClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F075CF1C562E2A00FC1A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48F075D11C562E2A00FC1A4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48F075D41C562E2A00FC1A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48F075D61C562E2A00FC1A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F075D91C562E2A00FC1A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48F075DB1C562E2A00FC1A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F075E01C562E2A00FC1A4B /* WatsonClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F075E41C562E2A00FC1A4B /* WatsonClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonClassifierTests.swift; sourceTree = "<group>"; };
+		48F075E61C562E2A00FC1A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F075EB1C562E2A00FC1A4B /* WatsonClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F075EF1C562E2A00FC1A4B /* WatsonClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonClassifierUITests.swift; sourceTree = "<group>"; };
+		48F075F11C562E2A00FC1A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F075FD1C56318000FC1A4B /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		7798AF834861DC89CBE2F8E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		960A7A66FD33A4F2B0E32783 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F075C91C562E2A00FC1A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA9D9ADBA5345F2B06768DD /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F075DD1C562E2A00FC1A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F075E81C562E2A00FC1A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F075C31C562E2A00FC1A4B = {
+			isa = PBXGroup;
+			children = (
+				48F075FD1C56318000FC1A4B /* worklight.plist */,
+				48F075CE1C562E2A00FC1A4B /* WatsonClassifier */,
+				48F075E31C562E2A00FC1A4B /* WatsonClassifierTests */,
+				48F075EE1C562E2A00FC1A4B /* WatsonClassifierUITests */,
+				48F075CD1C562E2A00FC1A4B /* Products */,
+				EE04E4275D3AC9061E856433 /* Pods */,
+				C08E130BFA1B2A56E8530AA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48F075CD1C562E2A00FC1A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F075CC1C562E2A00FC1A4B /* WatsonClassifier.app */,
+				48F075E01C562E2A00FC1A4B /* WatsonClassifierTests.xctest */,
+				48F075EB1C562E2A00FC1A4B /* WatsonClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F075CE1C562E2A00FC1A4B /* WatsonClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				48F075CF1C562E2A00FC1A4B /* AppDelegate.swift */,
+				48F075D11C562E2A00FC1A4B /* ViewController.swift */,
+				48F075D31C562E2A00FC1A4B /* Main.storyboard */,
+				48F075D61C562E2A00FC1A4B /* Assets.xcassets */,
+				48F075D81C562E2A00FC1A4B /* LaunchScreen.storyboard */,
+				48F075DB1C562E2A00FC1A4B /* Info.plist */,
+			);
+			path = WatsonClassifier;
+			sourceTree = "<group>";
+		};
+		48F075E31C562E2A00FC1A4B /* WatsonClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				48F075E41C562E2A00FC1A4B /* WatsonClassifierTests.swift */,
+				48F075E61C562E2A00FC1A4B /* Info.plist */,
+			);
+			path = WatsonClassifierTests;
+			sourceTree = "<group>";
+		};
+		48F075EE1C562E2A00FC1A4B /* WatsonClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48F075EF1C562E2A00FC1A4B /* WatsonClassifierUITests.swift */,
+				48F075F11C562E2A00FC1A4B /* Info.plist */,
+			);
+			path = WatsonClassifierUITests;
+			sourceTree = "<group>";
+		};
+		C08E130BFA1B2A56E8530AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960A7A66FD33A4F2B0E32783 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE04E4275D3AC9061E856433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D799CBEC70CADC4590F5295 /* Pods.debug.xcconfig */,
+				7798AF834861DC89CBE2F8E9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F075CB1C562E2A00FC1A4B /* WatsonClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F075F41C562E2A00FC1A4B /* Build configuration list for PBXNativeTarget "WatsonClassifier" */;
+			buildPhases = (
+				1F93099F89C7D346C7983A56 /* Check Pods Manifest.lock */,
+				48F075C81C562E2A00FC1A4B /* Sources */,
+				48F075C91C562E2A00FC1A4B /* Frameworks */,
+				48F075CA1C562E2A00FC1A4B /* Resources */,
+				7932D47ACF486546F0706947 /* Embed Pods Frameworks */,
+				70AC11172E4D5FE83E8F133B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsonClassifier;
+			productName = WatsonClassifier;
+			productReference = 48F075CC1C562E2A00FC1A4B /* WatsonClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48F075DF1C562E2A00FC1A4B /* WatsonClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F075F71C562E2A00FC1A4B /* Build configuration list for PBXNativeTarget "WatsonClassifierTests" */;
+			buildPhases = (
+				48F075DC1C562E2A00FC1A4B /* Sources */,
+				48F075DD1C562E2A00FC1A4B /* Frameworks */,
+				48F075DE1C562E2A00FC1A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F075E21C562E2A00FC1A4B /* PBXTargetDependency */,
+			);
+			name = WatsonClassifierTests;
+			productName = WatsonClassifierTests;
+			productReference = 48F075E01C562E2A00FC1A4B /* WatsonClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48F075EA1C562E2A00FC1A4B /* WatsonClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F075FA1C562E2A00FC1A4B /* Build configuration list for PBXNativeTarget "WatsonClassifierUITests" */;
+			buildPhases = (
+				48F075E71C562E2A00FC1A4B /* Sources */,
+				48F075E81C562E2A00FC1A4B /* Frameworks */,
+				48F075E91C562E2A00FC1A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F075ED1C562E2A00FC1A4B /* PBXTargetDependency */,
+			);
+			name = WatsonClassifierUITests;
+			productName = WatsonClassifierUITests;
+			productReference = 48F075EB1C562E2A00FC1A4B /* WatsonClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F075C41C562E2A00FC1A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chethan Kumar";
+				TargetAttributes = {
+					48F075CB1C562E2A00FC1A4B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					48F075DF1C562E2A00FC1A4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 48F075CB1C562E2A00FC1A4B;
+					};
+					48F075EA1C562E2A00FC1A4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 48F075CB1C562E2A00FC1A4B;
+					};
+				};
+			};
+			buildConfigurationList = 48F075C71C562E2A00FC1A4B /* Build configuration list for PBXProject "WatsonClassifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48F075C31C562E2A00FC1A4B;
+			productRefGroup = 48F075CD1C562E2A00FC1A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F075CB1C562E2A00FC1A4B /* WatsonClassifier */,
+				48F075DF1C562E2A00FC1A4B /* WatsonClassifierTests */,
+				48F075EA1C562E2A00FC1A4B /* WatsonClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F075CA1C562E2A00FC1A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F075FE1C56318000FC1A4B /* worklight.plist in Resources */,
+				48F075DA1C562E2A00FC1A4B /* LaunchScreen.storyboard in Resources */,
+				48F075D71C562E2A00FC1A4B /* Assets.xcassets in Resources */,
+				48F075D51C562E2A00FC1A4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F075DE1C562E2A00FC1A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F075E91C562E2A00FC1A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F93099F89C7D346C7983A56 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70AC11172E4D5FE83E8F133B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7932D47ACF486546F0706947 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F075C81C562E2A00FC1A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F075D21C562E2A00FC1A4B /* ViewController.swift in Sources */,
+				48F075D01C562E2A00FC1A4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F075DC1C562E2A00FC1A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F075E51C562E2A00FC1A4B /* WatsonClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F075E71C562E2A00FC1A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F075F01C562E2A00FC1A4B /* WatsonClassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48F075E21C562E2A00FC1A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F075CB1C562E2A00FC1A4B /* WatsonClassifier */;
+			targetProxy = 48F075E11C562E2A00FC1A4B /* PBXContainerItemProxy */;
+		};
+		48F075ED1C562E2A00FC1A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F075CB1C562E2A00FC1A4B /* WatsonClassifier */;
+			targetProxy = 48F075EC1C562E2A00FC1A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48F075D31C562E2A00FC1A4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F075D41C562E2A00FC1A4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48F075D81C562E2A00FC1A4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F075D91C562E2A00FC1A4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48F075F21C562E2A00FC1A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48F075F31C562E2A00FC1A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F075F51C562E2A00FC1A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D799CBEC70CADC4590F5295 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				INFOPLIST_FILE = WatsonClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.watson.WatsonClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48F075F61C562E2A00FC1A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7798AF834861DC89CBE2F8E9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				INFOPLIST_FILE = WatsonClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.watson.WatsonClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48F075F81C562E2A00FC1A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatsonClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.watson.WatsonClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatsonClassifier.app/WatsonClassifier";
+			};
+			name = Debug;
+		};
+		48F075F91C562E2A00FC1A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatsonClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.watson.WatsonClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatsonClassifier.app/WatsonClassifier";
+			};
+			name = Release;
+		};
+		48F075FB1C562E2A00FC1A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WatsonClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.watson.WatsonClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WatsonClassifier;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		48F075FC1C562E2A00FC1A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WatsonClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.watson.WatsonClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WatsonClassifier;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F075C71C562E2A00FC1A4B /* Build configuration list for PBXProject "WatsonClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F075F21C562E2A00FC1A4B /* Debug */,
+				48F075F31C562E2A00FC1A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F075F41C562E2A00FC1A4B /* Build configuration list for PBXNativeTarget "WatsonClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F075F51C562E2A00FC1A4B /* Debug */,
+				48F075F61C562E2A00FC1A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F075F71C562E2A00FC1A4B /* Build configuration list for PBXNativeTarget "WatsonClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F075F81C562E2A00FC1A4B /* Debug */,
+				48F075F91C562E2A00FC1A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F075FA1C562E2A00FC1A4B /* Build configuration list for PBXNativeTarget "WatsonClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F075FB1C562E2A00FC1A4B /* Debug */,
+				48F075FC1C562E2A00FC1A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F075C41C562E2A00FC1A4B /* Project object */;
+}
